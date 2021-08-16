@@ -6,4 +6,6 @@ class SessionsController < ApplicationController
     render json: { session: session, cookies: cookies.to_hash }
   end
 
+  # played around with a byebug with session and cookies
+
 end
